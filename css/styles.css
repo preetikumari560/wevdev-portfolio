@@ -36,7 +36,7 @@ body {
   grid-row: 2/3;
   align-self: flex-end;
   justify-self: end;
-  animation: bouncy 5s linear infinite;
+  animation: bouncy 2.5s linear infinite;
 
 }
 
@@ -293,7 +293,7 @@ nav ul li a:hover
   height: auto;
   grid-column: 4/5;
   justify-self: center;
-  animation: top-bouncy 5s linear infinite;
+  animation: top-bouncy 2.5s linear infinite;
 
 
 }
