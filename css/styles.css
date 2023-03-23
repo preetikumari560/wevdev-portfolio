@@ -77,12 +77,12 @@ margin-bottom: 50px;
 
 }
 body {
-
+ 
   text-align: center;
   font-family: 'Merriweather', serif;
   background-attachment: fixed;
-  /* position: relative;
-  min-width: fit-content; */
+  position: relative;
+  min-width: fit-content;
 
 }
 
@@ -118,6 +118,7 @@ body {
 .bottom-container {
   background-color: #66BFBF;
   padding: 30px 0;
+  /* width: 100%; */
 }
 
 .bottom-container a {
@@ -270,11 +271,12 @@ img{
 
 .middle-container {
   margin: 100px 0px;
+  /* width: 100%; */
 }
 
-.middle-container p {
+/* .middle-container p {
   width: 1000px;
-}
+} */
 
 
 
@@ -457,6 +459,7 @@ gap: 50px;
 }
 
 .top-container {
+  /* width: 100%; */
   height: 40vmax;
   align-content: stretch;
   gap: 5px;
