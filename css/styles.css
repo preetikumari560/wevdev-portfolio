@@ -76,7 +76,7 @@ body {
   font-family: 'Merriweather', serif;
   background-attachment: fixed;
   position: relative;
-  /* min-width: fit-content; */
+  min-width: fit-content;
 
   display: flex;
   flex-direction: column;
