@@ -540,12 +540,8 @@ background-color: #f8f9fa!important;
 color: #5ec4a9!important;
 }
 
-nav{
 
-
-}
-
-@media (max-width: 768px) 
+@media screen and (max-width: 768px) 
 {
   .top-container > h1
   { 
@@ -699,7 +695,7 @@ line-height: 43px;
 }
 
 
-@media (max-width:468px) {
+@media screen and (max-width:468px) {
 
 
 .top-container > h1
