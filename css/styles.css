@@ -541,159 +541,6 @@ color: #5ec4a9!important;
 }
 
 
-@media screen and (max-width: 768px) 
-{
-  .top-container > h1
-  { 
-  font-size: 72.8px;
-  }
-
-  .top-container >h2 
-  {
-  font-size: 42.88px;
-  }
-
-  .top-cloud
-  {
-     width: 22vw;
-     height: auto;
-     top:110px;
-  }
-
-  .bottom-cloud
-  {
-  width: 22vw;
-   height: auto;
-  left:50px;
-  top:25px;
-  }
-  .about{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  word-spacing: 0.3rem;
-  text-align: center;
-}
-.about .preeti_pic{
-  position: relative;
-  margin: 0 auto;
-  top:10px;
-}
-.about > h2{
-
-  font-size: 42.88px;
-  font-weight: 600;
-}
-
-.about >p
-{
-  font-size: 17px;
-}
-
-p>span{
-  font-size: 27.92px;
- }
- 
-.project-row {
-  border-radius: 10px;
-  padding:50px 50px;
-  max-width: 42%;
-}
-
-.project-row>h2
-{
-font-size: 46px;
-}
-
-.project-row>h3{
-  padding: 20px;
-  font-size: 24px;
-  font-weight: 600;
-  text-align:center;
-}
-
-.project-row>h4{
-  padding: 10px;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.project-row>p{
-  padding: 10px;
-  font-size: 17px;
-
-}
-
-.frontend1 {
-
-  margin-bottom: 20px;
- width: 100%;
- height: auto;
-}
-
-
-
- .project-section a{
-   text-align: center;
-display: block;
-margin: 10px auto;
-font-size: 25px;
-}
-
-.contact-me {
-  margin: 50px auto;
-  text-align: center;
-  width: 140%;
-}
-
-.contact-me >h2
-{
-font-size: 46px;
-}
-
-.btn{
- font-size: 20px;
-}
-
-hr {
- 
-  width: 12%;
-  margin: 70px auto;
-
-}
-.ccna
-{
-  height:40vw;
-  width: 40vw;
-}
-.bottom-container p {
- font-size: 12.96px;
-}
-
-#nav-color a{
-  font-size: 30px;
-  font-weight: 700;
-}
-
-h2
-{
-font-size: 46px;
-}
-
-.list
-{
-font-size: 22px;
-line-height: 43px;
-}
-
-/* .ccna
-{
-  height: auto;
-  width: 100%;
-} */
-
-}
-
 
 @media screen and (max-width:468px) {
 
@@ -848,3 +695,157 @@ line-height: 50px;
 }
 
 }
+
+@media screen and (max-width: 768px) 
+{
+  .top-container > h1
+  { 
+  font-size: 72.8px;
+  }
+
+  .top-container >h2 
+  {
+  font-size: 42.88px;
+  }
+
+  .top-cloud
+  {
+     width: 22vw;
+     height: auto;
+     top:110px;
+  }
+
+  .bottom-cloud
+  {
+  width: 22vw;
+   height: auto;
+  left:50px;
+  top:25px;
+  }
+  .about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  word-spacing: 0.3rem;
+  text-align: center;
+}
+.about .preeti_pic{
+  position: relative;
+  margin: 0 auto;
+  top:10px;
+}
+.about > h2{
+
+  font-size: 42.88px;
+  font-weight: 600;
+}
+
+.about >p
+{
+  font-size: 17px;
+}
+
+p>span{
+  font-size: 27.92px;
+ }
+ 
+.project-row {
+  border-radius: 10px;
+  padding:50px 50px;
+  max-width: 42%;
+}
+
+.project-row>h2
+{
+font-size: 46px;
+}
+
+.project-row>h3{
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align:center;
+}
+
+.project-row>h4{
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.project-row>p{
+  padding: 10px;
+  font-size: 17px;
+
+}
+
+.frontend1 {
+
+  margin-bottom: 20px;
+ width: 100%;
+ height: auto;
+}
+
+
+
+ .project-section a{
+   text-align: center;
+display: block;
+margin: 10px auto;
+font-size: 25px;
+}
+
+.contact-me {
+  margin: 50px auto;
+  text-align: center;
+  width: 140%;
+}
+
+.contact-me >h2
+{
+font-size: 46px;
+}
+
+.btn{
+ font-size: 20px;
+}
+
+hr {
+ 
+  width: 12%;
+  margin: 70px auto;
+
+}
+.ccna
+{
+  height:40vw;
+  width: 40vw;
+}
+.bottom-container p {
+ font-size: 12.96px;
+}
+
+#nav-color a{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h2
+{
+font-size: 46px;
+}
+
+.list
+{
+font-size: 22px;
+line-height: 43px;
+}
+
+/* .ccna
+{
+  height: auto;
+  width: 100%;
+} */
+
+}
+
