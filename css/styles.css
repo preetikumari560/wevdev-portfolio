@@ -1,3 +1,27 @@
+
+@media screen and (min-width:1025px )
+
+{
+.top-container >h1
+
+{
+right:60px;
+
+}
+
+.top-container >h2
+
+{
+right:55px;
+
+}
+
+
+}
+
+
+
+
 * {
   padding: 0;
   margin: 0;
@@ -860,27 +884,6 @@ line-height: 50px;
   box-shadow: -16px 13px 10px -1px rgb(176, 227, 244);
   box-sizing: border-box;
 }
-}
-
-
-@media screen and (min-width:1025px )
-
-{
-.top-container >h1
-
-{
-right:60px;
-
-}
-
-.top-container >h2
-
-{
-right:55px;
-
-}
-
-
 }
 
 
