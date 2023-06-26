@@ -863,6 +863,27 @@ line-height: 50px;
 }
 
 
+@media screen and (min-width:1025px )
+
+{
+.top-container >h1
+
+{
+right:60px;
+
+}
+
+.top-container >h2
+
+{
+right:55px;
+
+}
+
+
+}
+
+
 
 @media screen and (max-width:1024px) and (min-width:769px ) {
 
@@ -932,26 +953,5 @@ p>span{
   font-weight: 700;
   
 }
-}
-
-
-@media screen and (min-width:1025px )
-
-{
-.top-container >h1
-
-{
-right:60px;
-
-}
-
-.top-container >h2
-
-{
-right:55px;
-
-}
-
-
 }
 
