@@ -747,8 +747,8 @@ font-size: 60px;
 
 .about >p
 {
-  font-size: 35px;
-    font-family: 'Sacramento';
+  font-size: 30px;
+    /* font-family: 'Sacramento'; */
 }
 
 p>span{
