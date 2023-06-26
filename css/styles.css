@@ -1,26 +1,4 @@
 
-@media screen and (min-width:1025px )
-
-{
-.top-container >h1
-
-{
-right:60px;
-
-}
-
-.top-container >h2
-
-{
-right:55px;
-
-}
-
-
-}
-
-
-
 
 * {
   padding: 0;
@@ -28,10 +6,6 @@ right:55px;
 
 }
 
-/* header
-{
-flex: 0 0 auto;
-} */
 
 .about{
 
@@ -471,7 +445,7 @@ margin-bottom: 50px;
 
 .top-container h1 {
   position: relative;
-
+  
   grid-column: 3/ 4;
   grid-row: 1/2;
 
@@ -491,6 +465,7 @@ margin-bottom: 50px;
 
 .top-container h2 {
   position: relative;
+ 
   grid-column: 3/4;
   grid-row: 2/3;
   justify-self: center;
@@ -957,4 +932,26 @@ p>span{
   
 }
 }
+
+
+@media screen and (min-width:1025px )
+
+{
+.top-container >h1
+
+{
+right:60px;
+
+}
+
+.top-container >h2
+
+{
+right:55px;
+
+}
+
+
+}
+
 
