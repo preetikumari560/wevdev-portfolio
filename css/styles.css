@@ -4,10 +4,10 @@
 
 }
 
-header
+/* header
 {
 flex: 0 0 auto;
-}
+} */
 
 .about{
 
@@ -32,22 +32,22 @@ flex: 0 0 auto;
   width: 20rem;
   height: 20rem;
   margin: auto 20px;
-  border: solid 8px #e5e8e8;
+  border: solid 10px #cacfd3;
   border-radius: 50%;
 
   bottom: 60px;
   box-sizing: border-box;
-  rotate: 11deg;
+  rotate: 4deg;
 }
 
 .about p{
 
-  font-family: cursive;
+  font-family: sans-serif;
   margin: 30px 20px;
 
   grid-row: 2/3;
   grid-column: 2/3;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
  } 
 
 .about h2{
@@ -75,15 +75,16 @@ aside {
 
 }
 body {
- 
+   display: flex;
+  flex-direction: column;
   text-align: center;
-  font-family: 'Merriweather', serif;
+
+  font-family:  serif;
   background-attachment: fixed;
   position: relative;
   min-width: fit-content;
   width: fit-content;
-  display: flex;
-  flex-direction: column;
+
   /* line-height: 26px; */
 
 }
@@ -294,10 +295,10 @@ p>span{
   font-size: 2vw;
  }
 
-p{ 
+/* p{ 
   font-size: 1vw;
   font-weight: 100px;
-}
+} */
 
 
 .python {
@@ -540,7 +541,9 @@ background-color: #f8f9fa!important;
 color: #5ec4a9!important;
 }
 
-
+p{
+    font-family: sans-serif;
+}
 
 @media screen and (max-width: 768px) 
 {
@@ -589,6 +592,7 @@ color: #5ec4a9!important;
 .about >p
 {
   font-size: 17px;
+   /* font-family: cursive; */
 }
 
 p>span{
@@ -743,7 +747,8 @@ font-size: 60px;
 
 .about >p
 {
-  font-size: 30px;
+  font-size: 35px;
+    font-family: 'Sacramento';
 }
 
 p>span{
