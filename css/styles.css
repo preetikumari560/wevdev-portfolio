@@ -19,9 +19,6 @@
   grid-template-rows:auto auto ;
 }
 
-
-
-
 .about .preeti_pic{
   position: relative;
   grid-row: 2/3;
@@ -904,7 +901,7 @@ hr {
 }
 
 #nav-color a{
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 700;
   
 }
