@@ -737,7 +737,7 @@ line-height: 43px;
 i
 {
    font-size: 40px! important ;
-   padding:0 25px;
+   padding:0 25px! important;
 }
 
 
