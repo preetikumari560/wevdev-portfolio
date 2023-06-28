@@ -1,5 +1,4 @@
 
-
 * {
   padding: 0;
   margin: 0;
@@ -549,6 +548,8 @@ p{
 
 @media screen and (max-width: 768px) 
 {
+
+    
   .top-container > h1
   { 
   font-size: 72.8px;
