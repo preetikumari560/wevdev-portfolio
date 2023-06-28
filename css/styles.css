@@ -728,11 +728,17 @@ line-height: 43px;
 
 
 @media screen and (max-width:468px) {
+.bottom-container {
+    background-color: #47b1ad;
+    padding: 20px 0;
+}
+
 
 i
 
 {
-   font-size: 35px! important ;
+   font-size: 40px! important ;
+   padding:0 25px;
 }
 
 
@@ -743,7 +749,7 @@ i
 .zigzag-element
 
 {
-top:100px;
+top:50px;
 width: 60%;
 height: auto;
 }
