@@ -45,7 +45,19 @@
   grid-row: 2/3;
   grid-column: 2/3;
   font-size: 1.1rem;
+
+  padding: 30px;
+  text-align:justify;
+
  } 
+
+ .parent
+
+ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
 
 .about h2{
   text-align: center;
@@ -287,9 +299,11 @@ img{
 }
 
 
-p>span{
+.about-span{
+position: relative;
   font-family: 'Sacramento', cursive;
   font-size: 2vw;
+ right: 150px;
  }
 
 /* p{ 
@@ -370,6 +384,7 @@ p>span{
 
 .project-row>p{
   padding: 10px;
+  text-align: justify;
 }
 
 .row7{
@@ -588,7 +603,7 @@ p{
 }
 .about > h2{
 
-  font-size: 42.88px;
+  font-size: 3.5rem;
   font-weight: 600;
 }
 
@@ -598,9 +613,13 @@ p{
    font-family: sans-serif;
 }
 
-p>span{
-  font-size: 27.92px;
+.about-span{
+
+font-size: 30px;
+right: 0;
+
  }
+ 
  
 .project-row {
   border-radius: 10px;
@@ -754,8 +773,11 @@ font-size: 60px;
     font-family: sans-serif;
 }
 
-p>span{
-  font-size: 40px;
+.about-span{
+
+ font-size: 40px;
+right: 0;
+
  }
  
 .project-row {
@@ -764,6 +786,7 @@ p>span{
   max-width: 80%;
   display: flex;
   flex-direction: column;
+  
 }
 
 .project-row>h2
@@ -789,6 +812,7 @@ font-size: 50px;
   padding: 10px;
   font-size: 27px;
   line-height: 3rem;
+  
 }
 
 .frontend1 {
@@ -923,9 +947,11 @@ font-size:2.5rem;
    font-family: sans-serif;
 }
 
-p>span{
-  font-size: 27.92px;
- }
+.about-span{
+
+    font-size: 2vw;
+ right: 0;
+}
 
  #nav-color a{
   font-size: 20px;
