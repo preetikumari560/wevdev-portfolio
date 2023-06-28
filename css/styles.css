@@ -735,7 +735,6 @@ line-height: 43px;
 
 
 i
-
 {
    font-size: 40px! important ;
    padding:0 25px;
@@ -905,14 +904,10 @@ font-size:70px;
 hr {
  
   width: 15%;
-  margin: 200px auto;
+  margin: 100px auto;
  border-width: 25px;
 }
-.ccna
-{
-  height:auto;
-  width: 100%;
-}
+
 .bottom-container p {
  font-size: 40px;
 }
@@ -939,8 +934,9 @@ line-height: 85px;
 
 .ccna
 {
+ width: 90%;
   height: auto;
-  width: 100%;
+ 
 }
 
 
