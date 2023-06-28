@@ -729,6 +729,17 @@ line-height: 43px;
 
 @media screen and (max-width:468px) {
 
+i
+
+{
+   font-size: 35px! important ;
+}
+
+
+.back-top {
+    width: 100px;
+    height: 100px;
+}
 .zigzag-element
 
 {
