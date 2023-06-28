@@ -380,6 +380,7 @@ position: relative;
 
 .project-row>h4{
   padding: 10px;
+  
 }
 
 .project-row>p{
@@ -409,8 +410,7 @@ margin-bottom: 50px;
 .top-cloud {
   position: absolute;
   top: 80px;
-
-  width: 15.625rem;
+width: 15.625rem;
   height: auto;
   grid-column: 4/5;
   justify-self: center;
@@ -607,15 +607,15 @@ p{
   font-weight: 600;
 }
 
-.about >p
+.about p
 {
-  font-size: 17px;
-   font-family: sans-serif;
+  font-size: 20px;
+
 }
 
 .about-span{
 
-font-size: 30px;
+font-size: 50px;
 right: 0;
 
  }
@@ -624,31 +624,32 @@ right: 0;
 .project-row {
   border-radius: 10px;
   padding:50px 50px;
-  max-width: 42%;
+  max-width: 43%;
 
 }
 
-.project-row>h2
+h2
 {
-font-size: 46px;
+font-size: 150px;
 }
 
 .project-row>h3{
   padding: 20px;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 600;
   text-align:center;
 }
 
-.project-row>h4{
+h4{
   padding: 10px;
   font-size: 20px;
   font-weight: 600;
+
 }
 
 .project-row>p{
   padding: 10px;
-  font-size: 17px;
+  font-size: 20px;
 
 }
 
@@ -689,13 +690,21 @@ hr {
   margin: 70px auto;
 
 }
+
+.row7
+
+{
+max-width: 50%;
+
+}
 .ccna
 {
-  height:40vw;
   width: 40vw;
+  height:40vw;
+  
 }
 .bottom-container p {
- font-size: 12.96px;
+ font-size: 15px;
 }
 
 #nav-color a{
@@ -710,7 +719,7 @@ font-size: 46px;
 
 .list
 {
-font-size: 22px;
+font-size: 25px;
 line-height: 43px;
 }
 
@@ -723,28 +732,56 @@ line-height: 43px;
 
 @media screen and (max-width:468px) {
 
+.zigzag-element
+
+{
+top:100px;
+width: 60%;
+height: auto;
+}
+
+.mountain
+
+{
+margin-top:100px;
+width: 60%;
+height: auto;
+
+}
 
 .top-container > h1
   { 
-  font-size: 70.8px;
+
+  margin-top: 100px;
+  right:35px;
+
   }
 
-  .top-container >h2 
+ .top-container > h2 
   {
-  font-size: 40.88px;
+  font-size: 51px;
+   margin-top: 50px;
+
   }
 
   .top-cloud
   {
-    width: 35vw;
+     width: 130%;
     height: auto;
+    top:200px;
   }
 
   .bottom-cloud
   {
-    width: 35vw;
+    width: 70%;
     left:50px;
-    top:50px;
+    top:120px;
+  }
+
+  h2
+
+  {
+  font-size: 100px;
   }
 
   .about{
@@ -763,19 +800,21 @@ line-height: 43px;
 
 .about >h2
 {
-font-size: 60px;
+font-size: 100px;
+margin-bottom: 50px;
+margin-top: 45px;
 
 }
 
-.about >p
+.about p
 {
-  font-size: 30px;
-    font-family: sans-serif;
+  font-size: 50px;
+   
 }
 
 .about-span{
 
- font-size: 40px;
+ font-size: 80px;
 right: 0;
 
  }
@@ -796,30 +835,32 @@ font-size: 50px;
 
 .project-row>h3{
   padding: 20px;
-  font-size: 35px;
+  font-size: 55px;
   font-weight: 600;
   text-align:center;
 }
 
-.project-row>h4{
+h4{
   padding: 10px;
-  font-size: 30px;
+  font-size: 45px;
   font-weight: 600;
-  line-height: 3rem;
+  line-height: 4rem;
+
 }
 
 .project-row>p{
   padding: 10px;
-  font-size: 27px;
-  line-height: 3rem;
+  font-size: 50px;
+  line-height: 6rem;
   
 }
 
 .frontend1 {
 
   margin: 20px auto;
- width: 100%;
+ width: 90%;
  height: auto;
+ margin-bottom: 50px;
 }
 
 
@@ -827,29 +868,31 @@ font-size: 50px;
    text-align: center;
 display: block;
 margin: 10px auto;
-font-size: 35px;
+font-size: 55px;
 }
 
 .contact-me {
   margin: 50px auto;
   text-align: center;
-  width: 140%;
+  width: 145%;
 }
 
 .contact-me >h2
 {
-font-size: 49px;
+font-size:70px;
 }
 
 .btn{
- font-size: 24px;
+ font-size: 45px;
+ margin-bottom: 100px;
+ border-radius: 21px;
 }
 
 hr {
  
-  width: 12%;
-  margin: 70px auto;
-
+  width: 15%;
+  margin: 200px auto;
+ border-width: 25px;
 }
 .ccna
 {
@@ -857,11 +900,11 @@ hr {
   width: 100%;
 }
 .bottom-container p {
- font-size: 17.96px;
+ font-size: 40px;
 }
 
 #nav-color a{
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 700;
   
 }
@@ -869,8 +912,15 @@ hr {
 
 .list
 {
-font-size: 30px;
-line-height: 50px;
+font-size: 45px;
+line-height: 85px;
+
+}
+
+.skills {
+    
+    gap: 75px;
+
 }
 
 .ccna
@@ -890,6 +940,12 @@ line-height: 50px;
 
 @media screen and (max-width:1024px) and (min-width:769px ) {
 
+.project-section a
+
+{
+margin-left: 30px;
+
+}
 .top-container >h1
 
 {
@@ -904,6 +960,21 @@ right: 25px;
 {
 
 font-size:2.5rem;
+
+}
+h3
+
+{
+
+font-size:1.1rem;
+text-align:center;
+
+}
+h4
+
+{
+
+font-size:0.8rem;
 
 }
 
@@ -941,15 +1012,11 @@ font-size:2.5rem;
   font-weight: 600;
 }
 
-.about >p
-{
-  font-size: 17px;
-   font-family: sans-serif;
-}
+
 
 .about-span{
 
-    font-size: 2vw;
+  font-size: 2vw;
  right: 0;
 }
 
