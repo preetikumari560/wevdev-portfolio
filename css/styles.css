@@ -765,7 +765,7 @@ height: auto;
 .top-container > h1
   { 
   font-size: 78.8px;
-  margin-top: 100px;
+  margin-top: 80px;
   right:35px;
 
   }
@@ -774,21 +774,22 @@ height: auto;
   {
   font-size: 51px;
    margin-top: 50px;
+   right: 25px;
 
   }
 
   .top-cloud
   {
-     width: 130%;
+     width: 145%;
     height: auto;
     top:200px;
   }
 
   .bottom-cloud
   {
-    width: 70%;
+    width: 75%;
     left:50px;
-    top:120px;
+    top:130px;
   }
 
   h2
@@ -904,7 +905,7 @@ font-size:70px;
 hr {
  
   width: 15%;
-  margin: 100px auto;
+  margin: 150px auto;
  border-width: 25px;
 }
 
