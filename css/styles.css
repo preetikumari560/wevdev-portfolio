@@ -853,7 +853,7 @@ height: auto;
   position: relative;
  border-width: 15px;
   margin: 0 auto;
-  top:-250px;
+  top:-290px;
   width: 45%;
   height: auto;
   
@@ -940,7 +940,7 @@ font-size: 55px;
   margin: 50px auto;
   text-align: center;
   /* width: 100%; */
- left:245px;
+ left:250px;
 }
 
 .contact-me >h2
@@ -957,12 +957,12 @@ font-size:70px;
 .first-hr
 {
 
-margin-bottom: 350px;
+margin-bottom: 410px;
 }
 hr {
  
   width: 15%;
-  margin: 150px auto;
+  margin: 200px auto;
  border-width: 25px;
 }
 
