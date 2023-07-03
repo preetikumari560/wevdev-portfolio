@@ -652,7 +652,7 @@ font-size:50px;
 
 .about p
 {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 
 }
 
@@ -689,7 +689,7 @@ h4{
 
 .project-row>p{
   padding: 10px;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 
 
 }
@@ -852,14 +852,15 @@ height: auto;
 .about .preeti_pic{
   position: relative;
   margin: 0 auto;
-  top:10px;
-  width: 40%;
+  top:-250px;
+  width: 45%;
   height: auto;
 
 }
 
 .about >h2
 {
+display: none;
 font-size: 100px;
 margin-bottom: 50px;
 margin-top: 45px;
@@ -868,15 +869,17 @@ margin-top: 45px;
 
 .about p
 {
+position: relative;
   font-size: 50px;
+  top:-250px
    
 }
 
 .about-span{
-
+position: relative;
  font-size: 80px;
 right: 0;
-
+top:-250px;
  }
  
 .project-row {
@@ -949,12 +952,18 @@ font-size:70px;
  border-radius: 21px;
 }
 
+.first-hr
+{
+
+margin-bottom: 350px;
+}
 hr {
  
   width: 15%;
   margin: 150px auto;
  border-width: 25px;
 }
+
 
 .bottom-container p {
  font-size: 40px;
