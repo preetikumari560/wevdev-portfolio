@@ -81,7 +81,7 @@ aside {
 
 }
 body {
-touch-action:none;
+touch-action:pan-y;
    display: flex;
   flex-direction: column;
   text-align: center;
