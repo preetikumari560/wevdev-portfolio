@@ -851,10 +851,12 @@ height: auto;
 }
 .about .preeti_pic{
   position: relative;
+ border-width: 15px;
   margin: 0 auto;
   top:-250px;
   width: 45%;
   height: auto;
+  
 
 }
 
@@ -938,7 +940,7 @@ font-size: 55px;
   margin: 50px auto;
   text-align: center;
   /* width: 100%; */
- left:240px;
+ left:245px;
 }
 
 .contact-me >h2
