@@ -470,6 +470,11 @@ flex-direction: column;
 
 }
 
+.project-row:hover .ccna{
+  box-shadow: -16px 13px 10px -1px rgb(176, 227, 244);
+ 
+}
+
 .ccna
 
 {
