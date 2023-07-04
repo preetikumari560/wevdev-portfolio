@@ -1413,7 +1413,7 @@ display: none;
     bottom: 55px;
     font-size: 0.9rem;
      word-spacing: initial;
-    padding: 15px;
+    padding:13px 0;
 }
 
 .about-span {
@@ -1550,4 +1550,59 @@ font-size: 1.1rem;
 }
 
 
+
+
+
+@media screen and (max-width: 342px)
+{
+
+
+.top-container >h1 {
+
+    font-size: 1.5rem;
+
+
+}
+.top-container >h2 {
+ position: relative;
+    font-size: 0.9rem;
+    top: 3px;
+    left: 12px;
+}
+
+.top-cloud {
+    top: 40px;
+}
+.bottom-cloud {
+    top: 38px;
+    left: 80px;
+
+}
+
+.about .preeti_pic {
+ 
+    bottom: 55px;
+}
+
+
+.first-hr {
+
+    margin-bottom: 100px;
+}
+
+
+.about>p {
+
+    font-size: 0.8rem;
+
+    padding: 15px 0px;
+}
+
+.back-top {
+    width: 350%;
+    height: auto;
+    bottom: 0;
+    right: 0;
+}
+}
 
