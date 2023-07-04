@@ -690,7 +690,7 @@ h2{
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 h4 {
@@ -840,8 +840,8 @@ width: 21%;
   .project-section a{
   display: block;
 
-    margin-left: 70px;
-    text-align: end;
+    margin-left: 0;
+    text-align: center;
     
    
 }
@@ -861,7 +861,7 @@ width: 21%;
  
 .project-row>h3{
   padding: 20px;
-   
+   text-align: center;
 }
 
 .project-row>h4{
@@ -1058,6 +1058,7 @@ height: 35%;
 
 .bottom-container p {
    font-size: 0.7rem;
+   padding-bottom: 10px;
 }
 
 .bi
@@ -1156,7 +1157,7 @@ top:3px;
 
 
 .top-container >h2 {
-font-size: 1.9rem;
+font-size: 1.5rem;
     bottom: 3px;
     left: 12px;
 
@@ -1275,15 +1276,18 @@ h2
 
 .project-section a {
     display: block;
-    text-align: -webkit-right;
+    text-align: center;
       padding: 0 11px;
      font-size: 1.1rem;
+     margin-left: 0;
 }
 
 
 .project-row>h4 {
-    padding: 0 10px;
+  padding: 0 10px;
     font-size: 0.9rem;
+    text-align: inherit;
+    word-spacing: 0.3rem;
 }
 
 .project-row>p {
@@ -1376,6 +1380,7 @@ height: 35%;
 
 .bottom-container p {
    font-size: 0.7rem;
+
 }
 
 .bi
