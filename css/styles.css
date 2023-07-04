@@ -1569,15 +1569,15 @@ font-size: 1.1rem;
 
 .top-container >h1 {
 
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 
 
 }
 .top-container >h2 {
  position: relative;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     top: 3px;
-    left: 12px;
+    left: 11px;
 }
 
 .top-cloud {
@@ -1590,7 +1590,8 @@ font-size: 1.1rem;
 }
 
 .about .preeti_pic {
- 
+    width: 50%;
+    height: auto;
     bottom: 55px;
 }
 
