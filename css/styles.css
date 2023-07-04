@@ -1566,16 +1566,20 @@ font-size: 1.1rem;
 @media screen and (max-width: 342px)
 {
 
+.top-container {
+    grid-template-columns: 22% 53% 25%;
+    grid-template-rows: auto auto auto;
 
+}
 .top-container >h1 {
 
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 
 
 }
 .top-container >h2 {
  position: relative;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     top: 3px;
     left: 11px;
 }
