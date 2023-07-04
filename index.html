@@ -38,7 +38,7 @@
     </button>
     <div class="collapse navbar-collapse nav-color" id="navbarNavAltMarkup">
       <div class="navbar-nav" id="nav-color">
-        <a class="nav-link" href="#about me">About Me </a>
+        <a class="nav-link" href="#about-me">About Me </a>
         <a class="nav-link" href="#project"> Projects</a>
         <a class="nav-link" href="#main-end">Profile-Links</a>
        
@@ -50,6 +50,7 @@
   </header>
 
   <main>
+
     <section class="top-container">
      
         <img class="zigzag-element" src="images/gifhy.gif" alt="preeti_pic">
@@ -64,12 +65,12 @@
     <section id="middle-container">
     
      
-      <article class="about"  id="about me">
+      <article class="about"  id="about-me">
         
         <h2>About me</h2>
         <!-- <div class="img_text"> -->
         <img class="preeti_pic" src="images/preeti-pic.png" alt="img_not_available">
-        <div  class="parent">
+    
         <p>My name is Preeti kumari, and I am a self-taught web developer. I am passionate about technology and the endless possibilities it holds. With a deep curiosity to learn and a strong drive to succeed, I embarked on my journey to become a web developer.
 
          I am well-versed in frontend and back-end technologies, My experties is MERN.
@@ -80,18 +81,15 @@
           
           I am excited to continue growing as a web developer and to collaborate with others in the field. <br><br>
      </p>
-  <div > <span  class="about-span">Thank you !</span></div>
+ <span  class="about-span">Thank you !</span>
           
-          
-                  </div>
-        <!-- </div> -->
-      
     </article>
 
       <hr  >
 
-      <h2>My Skills</h2>
+        <h2 class="skill-head">My Skills</h2>
         <article  class="skills" >
+       
         <ul  class="list">
           <li>JavaScript</li>
           <li>React Js</li>
@@ -118,7 +116,9 @@
          
         </ul>
         <ul  class="list" >
-          <li>C++, C</li>
+          <li>C</li>
+          <li>C++</li>
+          
           <li>Data Structures</li>
           <li>Networking (CCNA)</li>
         </ul>
@@ -129,11 +129,11 @@
      
       
         <section class="project-body">
-          <div id="project">
-          <h2  >Projects</h2>
-        </div>
+
+          <h2  id="project">Projects</h2>
+       
         <div  class="project-section">
-        <article class="project-row row1" >        
+        <article class="project-row" >        
 
             <img class="frontend1" src="images/secrets.png" alt="">
             <h3>Anonymously Secret Posting Web App<a href="https://secret-post.onrender.com">Demo</a>  </h3>
@@ -141,7 +141,7 @@
             
             <p> The app allows users to post secrets without revealing their identity, and it has OAuth 2.0 authentication with login options using Google and Facebook.</p>
         </article>
-        <article class="project-row row2">      
+        <article class="project-row ">      
 
           <img class="frontend1" src="images/flight-search.png" alt="">
           <h3>Current Flight Price REST API <a href="https://flight-price-api-aybg.onrender.com/">Demo</a>  </h3>
@@ -149,7 +149,7 @@
           <p>The Flight Price API, developed using Node.js and REST API, provides real-time airline fares between specified origin and destination locations.</p> 
 
         </article>
-        <article class="project-row row3">
+        <article class="project-row">
          
             <img class="frontend1" src="images/blog-post.png" alt="">
             <h3>Blog Posting Web App  <a href="https://blog-post-1xqs.onrender.com">Demo</a>  </h3>
@@ -157,7 +157,7 @@
             <p>The web application  allows users to create, edit, delete and publish blog posts. </p>
           
         </article>
-        <article class="project-row row4">
+        <article class="project-row">
          
             <img class="frontend1" src="images/weather-app.png" alt="">
             <h3>Weather Web App  <a href="https://weather-o7t0.onrender.com">Demo</a>  </h3>
@@ -165,7 +165,7 @@
             <p>The web application utilizes the open weather API to fetch real-time weather data and provide accurate weather information to the users. The app provides a user-friendly interface that displays current weather conditions. </p>   
         </article>
 
-        <article class="project-row row5">
+        <article class="project-row">
      
           <img class="frontend1" src="images/notes-keeper.png" alt="">
           <h3>	Note Keeper  <a href="https://react-note-keeper.vercel.app/">Demo</a>  </h3>
@@ -173,7 +173,7 @@
           <p>This app is designed to allow users to easily create and delete notes in a user-friendly interface.</p>
         
       </article>
-      <article class="project-row row6">
+      <article class="project-row">
        
             <img class="frontend1" src="images/todo.png" alt="">
             <h3>To-do Web App <a href="https://todo-web-app-askl.onrender.com">Demo</a>  </h3>
@@ -184,7 +184,7 @@
 
       <article class="project-row row7">
          
-        <img class="frontend1 ccna" src="images/ccna.png" alt="">
+        <img class="ccna" src="images/ccna.png" alt="">
         <h3>University Network Architecture  <a href="https://github.com/preetikumari560/CCNA">Github Link</a>  </h3>
         <h4>Tech Stack : [ Cisco Packet Tracer (software), virtual N/w devices, LAN, WAN, OSPF, EIGRP, RIP, TCP/IP, VPN etc. ]</h4>
         <p>The "University Network" is a simulation of a computer network designed using Cisco Packet Tracer software, to provide a secure communication infrastructure for a university connected over WAN & LAN. The project includes routers, switches and other network devices to facilitate connectivity between various departments and enable secure access to university resources.</p>   
@@ -201,13 +201,25 @@
       </div>
 
   <aside >
-  <a href="#"><img  class="back-top" src="images/back-top.png" alt="image-not-found" width="50px" height="50px"></a>
+  <a href="#"><img  class="back-top" src="images/back-top.png" alt="image-not-found" ></a>
 </aside>
 </section>
 </main>
 
+
+
+<footer>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/preeti-kumari-98aa74263/"><i class="bi bi-linkedin"></i></a>
+    <a class="footer-link" href="https://github.com/preetikumari560"><i class="bi bi-github" ></i></a>
+    <p>© Preeti_Kumari.</p>
+  </div>
+   
+      
+</footer>
 <script>
-showAlert();
+// showAlert();
    var textArray = [" Coder...", " Web developer..."];
 
 function typeWriter(textArray, i, j, typingCallback) {
@@ -235,18 +247,10 @@ typeWriter(textArray, 0, 0);
 
 
 </script>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 
-<footer>
-
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/preeti-kumari-98aa74263/"><i class="bi bi-linkedin " style="font-size: 23px;"></i></a>
-    <a class="footer-link" href="https://github.com/preetikumari560"><i class="bi bi-github" style="font-size: 23px;"></i></a>
-    <p>© Preeti_Kumari.</p>
-  </div>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-      
-</footer>
 </html> 
 
 
