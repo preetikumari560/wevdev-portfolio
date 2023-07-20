@@ -1573,13 +1573,13 @@ font-size: 1.1rem;
 }
 .top-container >h1 {
 
-    font-size: 1rem;
+    font-size: 1.2rem;
 
 
 }
 .top-container >h2 {
  position: relative;
-    font-size: 0.6rem;
+    font-size: 0.9rem;
     top: 3px;
     left: 11px;
 }
