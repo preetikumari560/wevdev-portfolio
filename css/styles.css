@@ -261,7 +261,7 @@ font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   color: #46b49c;
   font-weight: normal;
-  bottom: 30px;
+  bottom: 20px;
   z-index: 3;
    
 }
@@ -275,6 +275,7 @@ font-size: 2.5rem;
 }
 
 .mountain {
+  margin: 25px 0 0;
   position: relative;
   grid-column: 1/6;
   grid-row: 3/4;
